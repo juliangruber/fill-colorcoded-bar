@@ -3,9 +3,9 @@ var Bar = require('colorcoded-bar');
 var raf = require('raf');
 
 var data = [];
-var lines = 20000;
+var lines = 1000;
 for (var i = 0; i < lines; i++) data[i] = Math.random();
-var delay = 0;
+var delay = 30;
 
 (function(){
   var canvas = document.createElement('canvas');
