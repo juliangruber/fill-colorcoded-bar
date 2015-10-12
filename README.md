@@ -47,17 +47,17 @@ $ npm install fill-colorcoded-bar
 
 ### fill(bar[, opts], fetch)
 
-  Fill [colorcoded-bar](https://npmjs.org/package/colorcoded-bar) bar based on function `fetch` which is expected to take `(i, callback)` and call `callback` with `(null, color)`.
+  Fill [colorcoded-bar](https://npmjs.org/package/colorcoded-bar) `bar` based on function `fetch` which is expected to take `(i, callback)` and call `callback` with `(null, color)`.
 
   Options:
 
-  - `strategy` choose the strategy:
-    - `"topdown"`: render top to bottom
-    - `"refine"`: progressively refine the bar
-  - `length`: total data length, required by the refine strategy
-  - `concurrency`: concurrency when calling `fetch`. defaults to `10`
+- `strategy` choose the strategy:
+  - `"topdown"`: render top to bottom
+  - `"refine"`: progressively refine the bar
+- `length`: total data length, required by the refine strategy
+- `concurrency`: concurrency when calling `fetch`. defaults to `10`
 
-  Returns an EventEmitter that will emit `"done"` when done and has a `.fetching` that becomes `false` once everything is done.
+Returns an EventEmitter that will emit `"done"` when done and has a `.fetching` that becomes `false` once everything is done.
 
 ## License
 
