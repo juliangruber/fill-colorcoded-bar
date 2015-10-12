@@ -1,6 +1,6 @@
 {
   "name": "fill-colorcoded-bar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Progressively fill a colorcoded bar based on an async data source",
   "scripts": {
     "test": "make test"
