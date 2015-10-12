@@ -58,9 +58,10 @@ iterators.refine = function(length){
   var next = [];
   var emitted = [];
   var divisor = 2;
+  var done = false;
 
   return function(){
-    if (!next.length) {
+    if (!next.length && !done) {
       var seg = length / divisor;
       for (var i = 0; i < divisor; i++) {
         var val = Math.floor(seg * i);
@@ -68,8 +69,8 @@ iterators.refine = function(length){
         next.push(val);
         emitted.push(val);
       }
-      if (divisor >= length && seg < 2) return;
-      divisor *= 2;
+      if (divisor >= length && seg < 1) done = true;
+      else divisor *= 2;
     }
 
     var i = next.shift();
