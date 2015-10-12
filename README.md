@@ -3,10 +3,13 @@
 
   Progressively fill a colorcoded bar based on an async data source
 
+## Screencast
 
-## Example
+  This shows two bars rendering the same data, using different strategies.
 
   ![animation](animation.gif)
+
+## Example
 
   [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=5d2096105d5acd69325d)
 
