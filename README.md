@@ -57,7 +57,7 @@ $ npm install fill-colorcoded-bar
 - `length`: total data length, required by the refine strategy
 - `concurrency`: concurrency when calling `fetch`. defaults to `10`
 
-Returns an EventEmitter that will emit `"done"` when done and has a `.fetching` that becomes `false` once everything is done.
+Returns an EventEmitter that will emit `"done"` when done and has a property `.fetching` that becomes `false` once everything is done.
 
 ## License
 
