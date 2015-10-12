@@ -6,7 +6,7 @@
 
 ## Example
 
-  [animation](animation.gif)
+  ![animation](animation.gif)
 
   [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=5d2096105d5acd69325d)
 
