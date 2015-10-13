@@ -40,7 +40,6 @@ module.exports = function(bar, opts, fetch){
       if (fetching) {
         next();
       } else {
-        console.log('done');
         status.fetching = false;
         status.emit('done');
       }
