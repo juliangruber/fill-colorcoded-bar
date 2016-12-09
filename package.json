@@ -7,7 +7,7 @@
   },
   "repository": "juliangruber/fill-colorcoded-bar",
   "devDependencies": {
-    "beefy": "^2.1.5",
+    "beefy": "^2.1.8",
     "colorcoded-bar": "^2.4.1",
     "raf": "^3.1.0",
     "tape": "*"
